@@ -49,6 +49,7 @@ RUN docker-php-ext-configure \
   	soap \
   	xsl \
   	zip \
+    sqlite3 \
   	sockets
 
 # Install Composer
