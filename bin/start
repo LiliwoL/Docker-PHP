@@ -1,12 +1,15 @@
 #!/usr/bin/env bash
-echo "
- ____             _             ____  _   _ ____
-|  _ \  ___   ___| | _____ _ __|  _ \| | | |  _ \
-| | | |/ _ \ / __| |/ / _ \ '__| |_) | |_| | |_) |
-| |_| | (_) | (__|   <  __/ |  |  __/|  _  |  __/
-|____/ \___/ \___|_|\_\___|_|  |_|   |_| |_|_|
 
-"
+# Nettoyage de l'écran
+clear
+
+# Echo with figlet if exists
+if type "figlet" > /dev/null; then
+  figlet Docker PHP
+else
+  echo "Docker PHP"
+fi
+
 
 echo "Lancement du container"
-docker-compose --env .env up -d
+docker-compose --env-file .env up -d
