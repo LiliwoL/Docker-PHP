@@ -12,4 +12,4 @@ fi
 
 
 echo "Shell du container"
-docker exec -it apache zsh
+docker exec -it docker_php zsh

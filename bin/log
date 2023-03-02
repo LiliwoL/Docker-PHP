@@ -12,4 +12,4 @@ fi
 
 
 echo "Logs du container"
-docker logs --follow apache
+docker logs --follow docker_php
