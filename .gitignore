@@ -2,3 +2,6 @@
 .env
 .DS_Store
 .composer
+
+# Par défaut, l'application sera dan sle dossier app
+app/

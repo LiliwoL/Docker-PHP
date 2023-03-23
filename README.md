@@ -21,6 +21,8 @@ apache:
 Modifiez le fichier **.env** pour l'adapter à vos besoins.
 Vous y spécifiez le paramètre **SRC_DIR** qui pointe vers votre dossier contenant l'application.
 
+> Par défaut SRC_DIR=./app
+
 # Lancement
 
 Lancement du container nommé **docker_php** avec le fichier .env.
