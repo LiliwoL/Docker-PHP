@@ -60,6 +60,7 @@ docker container ls
 
 
 * Prunage des containers non utilisés
-
-	docker container prune
+```bash
+docker container prune
+```
 
