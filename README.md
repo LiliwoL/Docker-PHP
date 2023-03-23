@@ -7,7 +7,7 @@ Un environnement Docker pour le développement PHP
 # Configuration
 
 Après avoir cloné ce dépôt, modifiez le fichier *docker-compose.yml* pour choisir la version de php souhaitée.
-
+Décommentez la version à utiliser. Ci-dessous, on utilisera la version 7.4
 ```yml
 apache:
     build:
@@ -19,7 +19,7 @@ apache:
 ```
 
 Modifiez le fichier **.env** pour l'adapter à vos besoins.
-Vous y spécifiez le paramètre SRC_DIR qui pointe vers votre dossier contenant l'application.
+Vous y spécifiez le paramètre **SRC_DIR** qui pointe vers votre dossier contenant l'application.
 
 # Lancement
 
